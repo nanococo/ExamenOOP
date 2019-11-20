@@ -1,5 +1,8 @@
 package Bolitas;
 
+import Bolitas.Otros.IConstants;
+import Bolitas.Otros.RandomGenerator;
+
 import javax.swing.*;
 import java.awt.*;
 

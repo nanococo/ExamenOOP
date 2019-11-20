@@ -6,7 +6,7 @@
 package Bolitas.Patterns.Strategy;
 
 import Bolitas.Bolita;
-import Bolitas.IConstants;
+import Bolitas.Otros.IConstants;
 
 import java.util.ArrayList;
 
