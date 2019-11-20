@@ -1,5 +1,6 @@
 package Bolitas;
 
+import Bolitas.Otros.IConstants;
 import Bolitas.Patterns.Strategy.Context;
 
 import javax.swing.*;
@@ -29,12 +30,15 @@ public class DisplayScreen extends JFrame implements IConstants {
 
     private void fillArray(int flyWeightQuantity, int prototypeQuantity, int newedQuantity){
 
+        //Red
         context.setStrategy(Context.StrategyType.New);
         bolitas.addAll(context.execute(newedQuantity));
 
+        //Verde
         context.setStrategy(Context.StrategyType.FlyWeight);
         bolitas.addAll(context.execute(flyWeightQuantity));
 
+        //Blue
         context.setStrategy(Context.StrategyType.Prototype);
         bolitas.addAll(context.execute(prototypeQuantity));
 

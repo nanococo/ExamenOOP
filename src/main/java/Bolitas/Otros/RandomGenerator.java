@@ -1,4 +1,4 @@
-package Bolitas;
+package Bolitas.Otros;
 
 import java.util.Random;
 
