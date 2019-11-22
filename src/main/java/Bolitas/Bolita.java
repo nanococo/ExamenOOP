@@ -50,9 +50,7 @@ public class Bolita extends JLabel implements IConstants {
         if (positionY + angleY > SCREEN_WIDTH) angleY = -1;
 
         this.positionX += angleX;
-        
         this.positionY += angleY;
-    
     }
 
 

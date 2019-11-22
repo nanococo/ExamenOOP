@@ -525,6 +525,7 @@ public class GUI extends javax.swing.JFrame {
         resetExtras();
         resetComboSelections();
 
+
         order.notifyObservers();
 
     }
